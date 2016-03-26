@@ -1,0 +1,86 @@
+							</div>
+			</section>
+
+
+	
+		<div class="footer-wrapper">
+		<!--	<div class="footer-ratatosk"></div>-->
+			<div class="footer-nidhogg"></div>
+				<div class="card_social">
+					<div class="footer-h4">FOLLOW US</div> <br>
+					<div class="nav_wrapper" style="width: 350px;/* outline: 10px dashed red; */">
+						<div class="buttons_wrapper">
+							<div class="nav_button" data-target="blog" data-color="green" style="width:50px">
+								<a href="http://ragnacode.blogspot.com" target="_blank"><span>&nbsp;</span></a>
+							</div>
+							<div class="nav_button" data-target="facebook" data-color="blue" data-content="false" style="width:50px">
+								<a href="javascript:;"><span>&nbsp;</span></a>
+								<div class="social_data" style="top:-160%;">
+									<div class="fb-follow" data-href="https://www.facebook.com/ragnacode.eu" data-width="450" data-layout="box_count" data-show-faces="false"></div>	
+								</div>
+							</div>
+							<div class="nav_button" data-target="twitter" data-color="orange" data-content="false" style="width:50px">
+								<a href="javascript:;"><span>&nbsp;</span></a>
+								<div class="social_data" style="top:-90%;width:165px;right:0px">
+								</div>
+							</div>
+							<div class="nav_button" data-target="plus" data-color="purple" data-content="false" style="width:50px">
+								<a href="javascript:;"><span>&nbsp;</span></a>
+								<div class="social_data" style="top:-175%;right:0px;">
+									<div class="g-plus" data-width="184" data-height="69" data-href="https://plus.google.com/108943782887578446099" data-rel="publisher"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			<div id="footer_copy">
+				<p class="copyrights">Copyright © 2015 <a href="javascript:;" data-option="luko" data-trigger="dialog">Luko</a> All Rights Reserved. Magnificent icons courtesy of <a href="http://icons8.com">VisualPharm</a></p>
+			</div>
+		</div>
+
+
+<script>
+					var oClicked = null
+
+					$(function(){
+						readHash()
+						readSearch()
+
+						if(cookie.read('cookie_confirmation')){
+							$('#cookie_confirmation').hide()
+						}
+						
+//						scaleHead(1920, 0.1)
+//							scaleMultiple($('body'), 1920, 0.1);
+//						getTemplates()
+						loadTriggers()
+						swap()
+						hashFocus()
+
+/*						bindKeys({
+							27: ['hideDialog']
+						})*/
+
+						$(window).resize(function(){
+//							scaleHead(1920, 0.1)
+//							scaleMultiple($('body'), 1920, 0.1);
+						})
+
+						$(window).on('hashchange', function(){
+							readHash()
+							hashFocus()
+						})
+
+						$('.navigation').hover(function(){
+							var target = $(this).find('a').data('target')
+							var header = $(target).find('h3').html();
+							$('#substitute_title').html(header)
+						}, function(){
+							$('#substitute_title').html('')						
+						})
+						
+					})
+</script>
+</body>
+</html>

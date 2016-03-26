@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="237.32124"
+   height="192.04375"
+   id="svg4565"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 14">
+  <defs
+     id="defs4567" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="118.66062"
+     inkscape:cy="96.021877"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="472"
+     inkscape:window-height="383"
+     inkscape:window-x="1126"
+     inkscape:window-y="488"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata4570">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-256.33938,-436.34031)">
+    <path
+       inkscape:connector-curvature="0"
+       d="m 424.52313,543.35781 -23.93125,0 0,-40.315 23.93125,0 0,40.315 z m -85.08875,0 -23.93126,0 0,-40.315 23.93126,0 0,40.315 z m 134.28125,-15.39375 0,-24.18875 -23.93126,0 0,-16.86 -22.60124,0 0,-24.1875 17.61625,0 0,-26.3875 -24.59626,0 0,26.3875 -17.61624,0 0,24.1875 -58.83126,0 0,-24.1875 -17.61749,0 0,-26.3875 -24.59626,0 0,26.3875 17.61626,0 0,24.1875 -22.93376,0 0,16.86 -20.60749,0 0,24.18875 -19.2775,0 0,86.4925 25.25999,0 0,-49.84375 14.625,0 0,44.71375 13.29501,0 0,19.0575 44.54,0 0,-27.12 -30.58,0 0,-21.99125 99.05,0 0,21.99125 -29.24875,0 0,27.12 44.53875,0 0,-19.0575 11.965,0 0,-44.71375 18.6125,0 0,49.84375 25.26375,0 0,-86.4925 -19.945,0 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path46"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/loup/Desktop/alien_2.png" />
+  </g>
+</svg>

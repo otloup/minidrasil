@@ -1,0 +1,44 @@
+					
+								<div class="subpage " data-value="about" data-loaded="false" style="background-position: 50% -650px;">
+								<div class="subpage_content_wrapper">
+									<h3 data-name="subpage__about_header" data-editable="min_prepared" class="title">Who Are We?</h3><section class="subpage_section" id="about">
+	<div class="border border-about">
+		<div class="about-wrapper">
+			<div class="about-wrapper-helper">
+				<div class="about-content-left"> 
+					<a class="about-content-left-image"></a>
+				</div>
+				<div class="about-content-right"> 
+					<div class="about-h1"> Kim jesteśmy? </div>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut augue luctus, ullamcorper enim quis, vulputate risus. Phasellus libero ipsum, molestie sit amet lacus in, venenatis semper nisl. Nulla sed velit malesuada lorem consequat tempor. Sed arcu leo, facilisis at odio id, finibus elementum lorem. Praesent convallis urna in ex aliquam ultricies. Sed sed nulla turpis.
+				</div>
+			</div>
+		</div>
+	</div>	
+</section>
+
+<script>
+	$('.about_circle').click(function(){
+	//	$('#about_circle_1[data-loaded="true"]').attr({'data-loaded':"false"})
+
+		$('.about_circle').attr({'data-loaded':"false"})
+		$('.about_content_wrapper').height(0)
+		$('.about_content_wrapper').attr({'data-status':'inactive'})
+		
+		$(this).attr({'data-loaded':"true"})
+		
+		var sTarget = $(this).attr('id').substring(13);
+		
+		$('#about_content_'+sTarget).attr({'data-status':'active'})		
+		$('#about_content_'+sTarget).height($('.about_content').height());
+	
+	})
+
+	
+	
+
+</script>
+
+								</div>
+								</div>
+	

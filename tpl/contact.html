@@ -1,0 +1,64 @@
+						
+								<div class="subpage " data-value="contact" data-loaded="false" style="background-position: 50% -600px;">
+								<div class="subpage_content_wrapper">
+									<h3 data-name="subpage__contact_header" data-editable="min_prepared" class="title">Would You Like To Contact Us?</h3><section id="contact" style="width:100%;">
+	<div id="contact_wrapper">
+
+		<div id="contact_form_wrapper">
+			<form id="contact_form" method="POST">
+
+				<div>
+					<div class="input_wrapper" style="width:49%;float:left;">
+						<input type="text" name="name" placeholder="Name">
+					</div>
+
+					<div class="input_wrapper" data-required="true" style="width:49%;float:right;" data-validation="email">
+						<span class="validationMessage" data-orientation="right"></span>
+
+						<input type="text" name="email" placeholder="Email">
+					</div>
+	
+					<br style="clear:both;">
+				</div>
+
+				<div class="input_wrapper" data-required="true" data-validation="subject">
+					<span class="validationMessage" data-orientation="left"></span>
+
+					<input type="text" name="subject" placeholder="Subject">
+				</div>
+
+				<div class="input_wrapper" data-required="true" data-validation="content">
+					<span class="validationMessage" data-orientation="left"></span>
+
+					<textarea name="content" data-placeholder="Content"></textarea>
+				</div>
+
+				<div id="recaptcha_wrapper" class="input_wrapper" data-validation="recaptcha">
+					<span class="validationMessage" data-orientation="left" style="top:40%;left:-38%;"></span>
+
+									</div>
+
+				<div id="submit_wrapper" class="input_wrapper" data-validation="mail">
+					<span class="validationMessage" data-orientation="left" style="top:40%;left:-38%;"></span>
+					<input type="submit" value="send">
+				</div>
+			</form>
+		</div>
+
+	</div>
+</section>
+
+<br style="clear:both;">
+
+<script type="text/javascript">
+	$(function(){
+			new placeholder({
+					mode:'hard'
+					,ommit:['recaptcha_challenge_field', 'recaptcha_response']
+				})
+	})
+</script>
+
+								</div>
+								</div>
+

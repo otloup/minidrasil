@@ -1,0 +1,15 @@
+    <body style="background-color:purple;">
+				<div>
+					<?=$aForm['formHeader']?>
+					<?=$aForm['page_name']['label']?><?=$aForm['page_name']['html']?><br />
+					<?=$aForm['type']['label']?><?=$aForm['type']['html']?><br />
+					<?php
+						for($i = 1; $i <= 3; $i++){
+							echo $aForm['module'.$i]['label'].$aForm['module'.$i]['html'].'<br />';
+						}
+					?>
+					<?=$aForm['submit']['html']?>
+					<?=$aForm['formFooter']?>
+				</div>
+    </body>
+</html>

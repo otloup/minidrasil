@@ -1,0 +1,9 @@
+{
+	"name"	:	"Minidrasil js setup",
+	"version":	"0.0.1",
+	"dependencies"	:	{
+		"jquery":	null,
+		"angular":	null,
+		"requirejs"	:	null
+	}
+}

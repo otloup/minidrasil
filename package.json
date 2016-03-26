@@ -1,0 +1,28 @@
+{
+  "name": "minidrasil",
+  "version": "0.0.2",
+  "description": "",
+  "author": "loup <sn.loup@gmail.com>",
+  "dependencies": {
+    "async": "~0.8.0",
+    "bigpipe": "bigpipe/pagelet",
+    "bower": "^1.6.8",
+    "bower-requirejs": "^1.2.0",
+    "express": "4.2.x",
+    "plates": "https://github.com/flatiron/plates/tarball/master",
+    "primus": "*",
+    "winston": "git://github.com/flatiron/winston#master"
+  },
+  "devDependencies": {
+    "assume": "<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0",
+    "gulp": "^3.9.0",
+    "pre-commit": "*",
+    "vows": "^0.7.0"
+  },
+  "preferGlobal": true,
+  "private": true,
+  "publishConfig": {
+    "registry": "https://your-private-hosted-npm.registry.nodejitsu.com"
+  },
+  "license": "MIT"
+}

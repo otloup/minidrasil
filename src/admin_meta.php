@@ -1,0 +1,4 @@
+<?php
+$aAdditionalJS = [];
+$aAdditionalCSS = [];
+?>

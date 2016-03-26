@@ -1,0 +1,38 @@
+	<body>
+
+		<script type="text/javascript" src="/js/adminContentSelect.js"></script>
+
+		<div id="pages">
+			<h1>Pages</h1>
+			<?php
+				if(!empty($aSets)){
+					foreach($aSets as $aSetName){
+						echo "[ <a href='/admin/".$aSetName['name']."'>".$aSetName['name']."</a> ]";
+					}
+				}
+			?>
+		</div>
+
+		<br />
+
+		<div id="modules">
+			<h1>Modules</h1>
+			<?php
+				if(!empty($aModules)){
+					foreach($aModules as $aModule){
+						echo "[ <a href='/admin/".$sPage."/".$aModule['name']."'>".$aModule['name']."</a> ]";
+					}
+				}
+			?>
+		</div>
+
+		<br />
+
+		<div id="edit">
+			<h1>Edit</h1>
+			<?=$sEdit;?>
+		</div>
+
+	</body>
+
+</html>

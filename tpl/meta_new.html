@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+				<link rel="stylesheet" type="text/css" href="/css/hipodrom3.css" />
+
+				<?php
+
+					if(!empty($aAdditionalCSS)){
+						foreach($aAdditionalCSS as $key => $val){
+							echo "<link rel='stylesheet' type='text/css' href='/css/$val' />";
+						}
+					}
+
+				?>
+
+				<script type='text/javascript' src='/js/cookie.js'></script>
+        <script type='text/javascript' src='/js/jquery-2.0.2.min.js'></script>
+				<script type='text/javascript' src='/js/dialog.js'></script>
+				<script type='text/javascript' src='/js/slider.js'></script>
+				<script type='text/javascript' src='/js/pageNav.js'></script>
+        <script type='text/javascript' src='/js/placeholder.js'></script>
+				<script type='text/javascript' src='/js/tinymce/tinymce.min.js'></script>
+				<script type='text/javascript' src='/js/common.js'></script>
+
+				<?php
+
+					if(!empty($aAdditionalJS)){
+						foreach($aAdditionalJS as $key => $val){
+							echo "<script type='text/javascript' src='/js/$val'></script>";
+						}
+					}
+
+				?>
+
+				<style type="text/css">
+				html {
+					height: 100%;
+				}
+					#c{
+width:1px;
+height:1px;
+position:absolute;
+				 border-radius:90%;
+				 z-index:-999;
+					}
+
+#ci{
+	background: transparent;
+	border: 1px solid white;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 50%;
+color: white;
+cursor: pointer;
+}
+
+				</style>
+
+				<script type="text/javascript">
+				var co = 'orange';
+					function expl(){
+				var i = $('<div>');
+var c = $('#c');
+i.append(c.clone());
+c.remove();
+$('body').append(i);
+i.css({
+ position:'absolute',
+ 'z-index':-999,
+ top:'0px',
+ left:'0px',
+ width:$(window).width()+'px',
+ height:$(window).height()+'px',
+ overflow:'hidden'
+});
+window.a = window.setInterval(function(){
+ var c = $('#c');
+ var w=c.width(); 
+ var h = c.height();
+ c.css({
+  top:($(window).height() / 2) - h/2
+  ,left:($(window).width() / 2) - w/2
+  ,width:(w+50)+'px'
+	,height:(h+50)+'px'
+	,'background-color':co
+	});
+ if(h>$(window).height()*2.5 || w>$(window).width()*2.5){
+  $('body').css({
+   background:co
+  });
+	window.clearInterval(window.a);
+	$('#c').css({width:'1px',height:'1px'})
+	co = co == 'orange' ? 'purple' : 'orange';
+ }
+},10)	
+					}
+				</script>
+
+    </head>
+
+
+
